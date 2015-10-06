@@ -9,7 +9,7 @@ int *p;
 p = malloc(12) // 12バイトのメモリ領域が確保される
 ```
 
-``` ruby
+```cpp
 ### イメージ (参考ページ: http://www.geocities.jp/sugachan1973/doc/funto36.html)
 /********************* ポインタ変数 p **********************/
 
