@@ -9,8 +9,7 @@
 
 ### mallocの使い方例
 * (キャスト)malloc(確保したいサイズ)
-* int \*p;
-
+int \*p;
 p = (int *p)malloc(sizeof(int));
 
 ## free
