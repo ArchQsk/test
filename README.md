@@ -9,10 +9,10 @@
 
 ### mallocの使い方例
 * (キャスト)malloc(確保したいサイズ)
-‘‘‘c++
-int \*p;
+```cpp
+int *p;
 p = (int *p)malloc(sizeof(int));
-‘‘‘
+```
 
 ## free
 * void free(void *ptr)
