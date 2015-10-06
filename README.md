@@ -1,4 +1,4 @@
-# test
+# ReadString.c
 ## malloc
 * void *malloc(size_t size)
 * メモリの割り当て
