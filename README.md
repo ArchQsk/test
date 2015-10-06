@@ -23,7 +23,7 @@ p = (int *p)malloc(sizeof(int));
 void freeNode(struct node *p)
 {
     struct node *tmp;
-    // 解法したいポインタをpにいれていく
+    // 開放したいポインタをpにいれていく
     while(p != NULL){
         tmp = p->next; // 次のノードのアドレスを一時保存
         free(p); // 開放
